@@ -3,7 +3,7 @@ module fulladder_tb;
 
 reg a,b,c;
 wire d,e,f,sum,carry;
-fulladder f1(a,b,c,carry,sum);
+fulladder f1(a,b,c,out,out2);
 initial begin
   $dumpfile("fulladder.vcd");
   $dumpvars(0,fulladder_tb);
